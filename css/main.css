@@ -2,6 +2,7 @@
 
    dark: #343545;
    green: #47CAAE;
+   dark_green: #129b7e;
 
 */
 
@@ -17,17 +18,23 @@ body {
 }
 
 a {
-    color: #343545;
+    color: #47CAAE;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
 
-a:hover, a:active, a:focus, a:visited {
-    color: #47CAAE;
+a:hover, a:active, a:focus {
+    color: #129b7e;
+    text-decoration: none;
 }
 
 .navbar {
     border-radius: 0;
+    margin: 0;
+}
+
+section {
+    padding: 70px 0;
 }
 
 /* CUSTOM HEADER STYLES */
@@ -75,4 +82,27 @@ a:hover, a:active, a:focus, a:visited {
 
 .navbar-toggle:hover .icon-bar {
     background: #47CAAE;    
+}
+
+/* BANNER SECTION */
+.banner_section {
+    background: #EEE;
+}
+
+.banner_content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hello_text {
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #343545;
+}
+
+.about {
+    color: #343545;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
