@@ -1,0 +1,78 @@
+/* COLORS
+
+   dark: #343545;
+   green: #47CAAE;
+
+*/
+
+
+/* CUSTOM RESETS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #343545;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover, a:active, a:focus, a:visited {
+    color: #47CAAE;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+/* CUSTOM HEADER STYLES */
+
+#main_header {
+    background: #47CAAE;
+    padding: 3em 1em;
+}
+
+#main_header a {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase
+}
+
+.nav li a {
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    text-align: center;
+}
+
+.nav a:hover, .nav a:active, .nav a:focus {
+    color: #343545 !important;
+    background: none !important;
+}
+
+.navbar-toggle {
+    border: 1px solid #FFFFFF;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.icon-bar {
+    background: #FFFFFF;
+}
+
+.navbar-toggle:hover {
+    background: #FFFFFF;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background: #47CAAE;    
+}
