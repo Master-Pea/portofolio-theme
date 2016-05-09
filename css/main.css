@@ -34,7 +34,7 @@ a:hover, a:active, a:focus {
 }
 
 section {
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 /* CUSTOM HEADER STYLES */
@@ -105,4 +105,31 @@ section {
     color: #343545;
     line-height: 1.8;
     margin-bottom: 20px;
+}
+
+/* WORK SECTION STYLES */
+.work_unit {
+    margin-top: 50px;
+}
+.work_unit img {
+    display: block;
+    margin: 0 auto;
+}
+
+.work_unit span {
+    text-transform: uppercase;
+    color: #343545;
+    margin-top: 5px;
+    display: block;
+    font-size: 1.15em;
+    letter-spacing: 0.07em;
+}
+
+.work_section h3 {
+    color: #343545;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47CAAE;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.07em;
 }
