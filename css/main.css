@@ -133,3 +133,18 @@ section {
     font-weight: 700;
     letter-spacing: 0.07em;
 }
+
+/* FOOTER STYLES */
+.main_footer {
+    background: #343545;
+    padding: 1.25em 0;
+}
+
+.main_footer p {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.5em;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
